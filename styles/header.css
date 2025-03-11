@@ -1,0 +1,53 @@
+.header {
+    background-color: #E6F0FF;
+}
+
+.nav-bar {
+    display: flex;
+    width: 1110px;
+    height: 40px;
+    margin: 38px 165px 0px 165px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    width: 107px;
+    height: 24px;
+}
+
+.features {
+    width: 406px;
+    height: 21px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 64px;
+}
+
+.features a {
+    color: #4F5361;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sign-in-btn {
+    background-color: #E6F0FF;
+    color: #0F1B4C;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    display: inline;
+}
+
+.sign-up-btn {
+    background-color: #0F1B4C;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    padding: 9px 22px;
+    border-radius: 8px;
+}

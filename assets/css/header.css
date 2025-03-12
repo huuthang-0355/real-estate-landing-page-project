@@ -1,12 +1,22 @@
 .header {
     background-color: #E6F0FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
 }
 
 .nav-bar {
     display: flex;
     width: 1110px;
     height: 40px;
-    margin: 38px 165px 0px 165px;
+    /* margin-left: auto;
+    margin-right: auto; */
     flex-direction: row;
     align-items: center;
 }
@@ -33,13 +43,20 @@
     font-weight: 500;
 }
 
+.sign-btn {
+    margin-left: 369px;
+    display: flex;
+    align-items: center;
+}
+
 .sign-in-btn {
     background-color: #E6F0FF;
     color: #0F1B4C;
     font-size: 14px;
     font-weight: 500;
     border: none;
-    display: inline;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .sign-up-btn {
@@ -50,4 +67,6 @@
     border: none;
     padding: 9px 22px;
     border-radius: 8px;
+    margin-left: 18px;
+    cursor: pointer;
 }

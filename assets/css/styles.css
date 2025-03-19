@@ -10,7 +10,7 @@ html {
 body {
     font-size: 1.6rem;
     font-family: Poppins, sans-serif;
-    height: 3000px;
+    height: 10000px;
 }
 
 /* Common */
@@ -134,7 +134,8 @@ a {
 /* ===================== Clients =================== */
 
 .clients {
-    margin-top: 122px;
+    margin-top: 79px;
+    padding: 43px 0 41px;
 }
 
 .clients .row {
@@ -163,7 +164,8 @@ a {
 /* ===================== Guides =================== */
 
 .guides {
-    margin-top: 174px;
+    margin-top: 40px;
+    padding: 89px 0 79px;
 }
 
 .guides .sub-title {
@@ -243,7 +245,7 @@ a {
 /* ===================== Featured =================== */
 
 .featured {
-    margin-top: 120px;
+    margin-top: 41px;
     padding: 110px 0;
     background-color: #f5fafe;
 }
@@ -361,4 +363,159 @@ a {
     letter-spacing: 0.01;
 }
 
-/* 32.22 */
+/* =============== Stats ================ */
+.stats {
+    margin-top: 75px;
+    padding: 50px 0;
+}
+
+.stats .content {
+    width: 1017px;
+}
+
+.stats .row {
+    display: flex;
+}
+
+.stats .img-block,
+.stats .info {
+    width: 50%;
+}
+
+.stats .img-block {
+    position: relative;
+}
+
+.stats .stats-trend {
+    width: 239px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    border-radius: 0px 0px 12px 12px;
+    padding: 45px 22px 40px;
+}
+
+.stats .stats-trend .values {
+    color: #000339;
+    font-size: 2.6rem;
+    font-weight: 700;
+    letter-spacing: 0.26px;
+}
+
+.stats .stats-trend .icon {
+    /* display: block; Because of flex in parent tag (row) */
+    margin-left: auto;
+}
+
+.stats .stats-trend .desc {
+    margin-top: 8px;
+    color: #a7a7a7;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+}
+
+.stats .stats-trend .separate {
+    margin-top: 26px;
+    height: 1.2px;
+    background: #e9e9e9;
+}
+
+.stats .avatar-block {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 13px;
+    column-gap: 16px;
+    margin-top: 26px;
+}
+
+.stats .avatar-group {
+    display: flex;
+}
+
+.stats .avatar-group .avatar {
+    width: 16px;
+    height: 16px;
+    margin-left: -3px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.stats .avatar-group .avatar:first-child {
+    margin-left: 0;
+}
+
+.stats .avatar-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 450;
+    letter-spacing: -0.145px;
+}
+
+.stats .img-block .image {
+    display: block;
+    margin-left: auto;
+    width: 400px;
+    height: 460px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 12px;
+}
+
+.stats .info {
+    padding: 79px 0 0 165px;
+}
+
+.stats .info .sub-title {
+    position: relative;
+    width: 269px;
+    color: #000339;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1.28571; /* 128.571% */
+}
+
+.stats .info .sub-title::before {
+    position: absolute;
+    left: 0;
+    top: -10px;
+    content: "";
+    display: block;
+    width: 41px;
+    height: 4px;
+    border-radius: 12px;
+    background: #000339;
+}
+
+.stats .info .desc {
+    margin-top: 20px;
+    width: 309px;
+    color: #5a6473;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.875; /* 187.5% */
+}
+
+.stats .row-qty {
+    justify-content: space-between;
+    margin-top: 110px;
+    padding: 0 32px;
+}
+
+.stats .qty {
+    color: #000;
+    font-size: 6.4rem;
+    font-weight: 600;
+}
+
+.stats .qty-desc {
+    margin-top: 22px;
+    color: #7b8087;
+    font-size: 1.8rem;
+    font-weight: 500;
+}

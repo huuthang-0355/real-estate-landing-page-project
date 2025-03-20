@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+/* Tách ra bởi vì, nhiều trình duyệt cho thanh cuộn trên html và body khác nhau */
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
     --primary-color: #0f1b4c;
@@ -53,8 +59,11 @@ a {
 
 .hero-wrap {
     position: relative;
+    display: flex;
+    align-items: center;
     background-color: #e6f0ff;
-    height: 100vh;
+    /* height: 100vh; Old */
+    height: calc(100vh - 90px);
     /* vh	Relative to 1% of the height of the viewport* */
 }
 
@@ -94,10 +103,6 @@ a {
     padding: 13px 16px;
     margin-left: 18px;
     border-radius: 8px;
-}
-
-.hero {
-    padding-top: 130px;
 }
 
 .hero .info {
